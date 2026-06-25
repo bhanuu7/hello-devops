@@ -43,4 +43,4 @@ jobs:
           aws-region: eu-north-1
 
       - name: Upload dist to S3
-        run: aws s3 sync ./dist s3://Yfrontend-deployment-411 --delete
+        run: aws s3 sync ./dist s3://frontend-deployment-411 --delete
